@@ -17,8 +17,9 @@ public class BalanceOutputDto {
 
     @Override
     public String toString() {
-        return String.format("%s %s %s %s",bankName,borrowerName,amountPaid,eMILeft);
+        //return String.format("%s %s %s %s",bankName,borrowerName,amountPaid,eMILeft);
+        //Note: Adding rounding of amount fix the https://codu.ai/ output match issue
+        return String.format("%s %s %.0f %s",bankName,borrowerName,amountPaid,eMILeft);
     }
-
-
+    
 }
