@@ -36,7 +36,7 @@ Please install the below dependencies,
 not adding them in shell as this could mess up the local installation.
 
 ````
-JDK ~ openjdk  16.0.2
+Java 1.8
 
 Maven 3.8.2
 ````
