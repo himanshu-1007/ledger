@@ -1,5 +1,12 @@
 #!/bin/bash
 
+
+if [ -z "$1" ]
+  then
+    echo "Please provide file path"
+    exit 1
+fi
+
 filePath=$1
 
 if [ ! -f $filePath ]; then
