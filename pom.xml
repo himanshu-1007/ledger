@@ -81,7 +81,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <!-- This is the main class of your program which will be executed-->
-                            <mainClass>com.example.Main</mainClass>
+                            <mainClass>LedgerApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
